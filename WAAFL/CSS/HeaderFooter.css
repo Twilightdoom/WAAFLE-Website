@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    height: 60px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%; 
+    font-weight: bold;
+    font-size: larger;
+    /* position: fixed; */
+
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    height: 60px;
+}
+
+#logo{
+    margin-right: 30px;
+    margin-left: -40px;
+}
+
+.right-nav{
+    display:flex;
+    align-items: center;
+    padding-left: 690px;
+
+}
+
+#register{
+    padding: 10px;
+}
+
+#profile img{
+    height: 35px;
+    padding-left: 20px;
+    margin-right: -60px;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #5E3634;
+}
+
+button{
+    padding: 7px 18px;
+    background-color: #F0F0F0;
+    border-color: 5E3634;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    margin-left: 18px;
+    color: #5E3634;
+    font-size: large;
+}
+button:hover{
+    background-color: white;
+}
+/* ------------------------------ */
+
+
+/* Footer */
+
+#footer{
+    height: 85px;
+    background-color: #F0F0F0;
+    color: #5E3634;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+#sosmed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: -20px;
+}
+
+.facebook img{
+    height: 25px;
+    padding-right: 3px;
+}
+
+.instagram img{
+    height: 25px;
+    padding-right: 3px
+}
+
+.youtube img{
+    padding-top: px;
+}
+
+#Term{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}

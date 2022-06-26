@@ -1,0 +1,113 @@
+#about-us{
+    background-image: url("../Asset/about-us.png");
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.line{
+    background-color: #5E3634;
+    height: 5px;
+     margin: 20px;
+    /* padding: 5px;  */
+}
+
+#waffle{
+    text-align: center;
+}
+
+#waffle1{
+    font-family:'Courier New', Courier, monospace;
+}
+
+#founder{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#adriel{
+    font-weight: bold;
+}
+
+#img-founder img{
+    height: 300px;
+}
+
+/* explore menu */
+
+#bot{
+    background-image: url("../Asset/check-menu.png");
+    padding-left: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:60px;
+}
+
+#check-menu{   
+    border-radius: 40px;
+    background: #FAB84A;
+    width: 240px;
+    text-align: center;
+}
+
+#Explore{
+    text-decoration: none;
+    color: 5E3634;
+}
+
+#Explore:hover{
+    color: #80524e;
+}
+
+#find-us-title{
+    text-align: center;
+}
+
+#find-us-title h1{
+    color: #5E3634;
+}
+
+#find-us img{
+    height: 30px;
+}
+
+#find-us{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#location{
+    display: flex;
+    justify-content: space-between;
+}
+
+#telp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#telp1{
+    display: flex;
+    justify-content: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-bottom: 0 px;
+    padding-top: 0 px;
+}
+
+#telp1 img{
+    height: 20px;
+}
+
+#address{
+    padding:  0;
+}
+
+#telp img{
+    height: 20px;
+}
